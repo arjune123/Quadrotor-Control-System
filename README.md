@@ -1,4 +1,4 @@
-                                             **Iterative LQR algorithm on a quadrotor**
+**Iterative LQR algorithm on a quadrotor**
 
 The goal of this project is to control a 2D quadrotor to perform acrobatic moves. It has been carried out in 4 parts of increasing complexity. The final part is the implementation of the iterative LQR (iLQR) algorithm.
 
