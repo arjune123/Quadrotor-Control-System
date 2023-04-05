@@ -18,18 +18,28 @@ Part-4
 
 In this final part of the project my goal is to make the quad-rotor do a flip. This is achieved by using the iterative LQR algorithm.
 
-<img src="https://github.com/arjune123/iLQR-QuadDynamics/blob/master/quadrotor.png" width="120">
+
+Illustration:
+
+<img src="https://github.com/arjune123/iLQR-QuadDynamics/blob/master/quadrotor.png" width="300">
 
 where:
 
 x is the horizontal and y being the vertical position of the quadrotor
+
 θ is the orientation with respect to the horizontal plane
+
 $v_x$ and $v_y$ are the linear velocities and $\\omega$ is the angular velocity of the robot
+
 $u_1$ and $u_2$ are the forces produced by the rotors (our control inputs)
+
 $m$ is the quadrotor mass
+
 $I$ its moment of inertia (a scalar)
+
 $r$ is the distance from the center of the robot frame to the propellers
+
 $g$ is the gravity constant
 
-We denote the state as $z = [x, v_x, y, v_y, \\theta, \\omega]^T$ 
+Finally we denote the state as $z = [x, v_x, y, v_y, \\theta, \\omega]^T$ 
 and $u = [u_1, u_2]^T$.\n",
