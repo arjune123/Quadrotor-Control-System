@@ -36,7 +36,7 @@ where:
 - g is the gravity constant
 - u₁, u₂ are the rotor forces (control inputs)
 
-<img src="quadrotor.png" width="700">
+<img src="assets/quadrotor.png" width="700">
 
 ### Implementation Progression
 
@@ -81,7 +81,7 @@ where:
 1. Clone the repository
 2. Install dependencies:
    ```bash
-   pip install numpy matplotlib jax ipython jupyter
+   pip install -r requirements.txt
    ```
 3. Run the Jupyter notebooks in sequence (Part 1-4)
 
